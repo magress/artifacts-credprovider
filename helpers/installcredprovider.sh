@@ -30,10 +30,10 @@ fi
 # If AZURE_ARTIFACTS_CREDENTIAL_PROVIDER_VERSION is set, install the version specified, otherwise install latest
 if [[ ! -z ${AZURE_ARTIFACTS_CREDENTIAL_PROVIDER_VERSION} ]] && [[ ${AZURE_ARTIFACTS_CREDENTIAL_PROVIDER_VERSION} != "latest" ]]; then
   # browser_download_url from https://api.github.com/repos/Microsoft/artifacts-credprovider/releases/latest 
-  URI="https://github.com/$REPO/releases/download/v0.1.28/$FILE"
+  URI="https://github.com/Microsoft/artifacts-credprovider/releases/download/v0.1.28/Microsoft.NuGet.CredentialProvider.tar.gz"
 else
   # URL pattern to get latest documented at https://help.github.com/en/articles/linking-to-releases as of 2019-03-29
-  URI="https://github.com/$REPO/releases/download/v0.1.28/$FILE"
+  URI="https://github.com/Microsoft/artifacts-credprovider/releases/download/v0.1.28/Microsoft.NuGet.CredentialProvider.tar.gz"
 fi
 
 # Ensure plugin directory exists
