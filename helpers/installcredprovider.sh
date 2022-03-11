@@ -12,6 +12,8 @@
 # set the `USE_NET6_ARTIFACTS_CREDENTIAL_PROVIDER` environment variable.
 
 REPO="Microsoft/artifacts-credprovider"
+
+
 NUGET_PLUGIN_DIR="$HOME/.nuget/plugins"
 
 # determine whether we install default or Net6
